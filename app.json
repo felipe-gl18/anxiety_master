@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "ansiedade_master",
-    "slug": "ansiedade_master",
+    "name": "anxiety master",
+    "slug": "anxiety_master",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ansiedade_master_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ANXIETY_MASTER_BACKGROUND.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +21,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.anxietymaster.anxietymasterapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ansiedade_master_icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "905da554-f077-4c0e-acfb-2ecafc611230"
+      }
     }
   }
 }
